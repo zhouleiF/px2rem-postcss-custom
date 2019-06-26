@@ -18,7 +18,7 @@ var opacity = function (css) {
   });
 };
 
-describe('postcss-px2rem', function () {
+describe('px2rem-postcss-custom', function () {
 
   it('[default] should output right rem file', function () {
     var srcPath = path.join(__dirname, 'source.css');
